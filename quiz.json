@@ -1,0 +1,246 @@
+[
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "mana yang termasuk infrastructure-as-code",
+        "pilihan": [
+            "chef", "puppet", "ansible", "saltStack", "cloudFormation", "Terraform"
+        ],
+        "jawaban":"All True",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "Yang mana yang Tidak Opensource?",
+        "pilihan": [
+            "chef", "puppet", "ansible", "saltStack", "cloudFormation", "Terraform"
+        ],
+        "jawaban":"CloudFormation",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "Yang mana yang hanya bisa di gunakan di AWS?",
+        "pilihan": [
+            "chef", "puppet", "ansible", "saltStack", "cloudFormation", "Terraform"
+        ],
+        "jawaban":"CloudFormation",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "Mana yang membutuhkan master server untuk storing state",
+        "pilihan": [
+            "chef, puppet, saltstack",
+            "ansible,cloudFormation",
+            "ansible, saltstack, chef",
+            "cloudFormation, puppet, saltstack"
+        ],
+        "jawaban":"chef, puppet, saltstack",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "configuration management",
+        "pertanyaan": "Yang mana yang Termasuk configuration management",
+        "pilihan": [
+            "Chef, Puppet, Ansible, and SaltStack", 
+            "puppet, cloudFormation, Terraform", 
+            "ansible, saltStack , Terraform", 
+            "cloudFormation ,Terraform. chef"
+        ],
+        "jawaban":"Chef, Puppet, Ansible, and SaltStack",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "mana yang termasuk provisioning tools",
+        "pilihan": [
+            "CloudFormation and Terraform", 
+            "Chef, Puppet, Ansible, and SaltStack",
+            "Chef and CloudFormation",
+            "Ansible and SaltStack"
+        ],
+        "jawaban":"CloudFormation and Terraform",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "Apa yang di maksud configuration managements?",
+        "pilihan": [
+            "Di design untuk menginstall dan manage software yang sudah Exist",
+            "Di design menyediakan server itu sendiri, seperti load balancer, database, networking configuration, etc"
+        ],
+        "jawaban":"Di design untuk menginstall dan manage software yang sudah Exist",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "Apa yang di maksud configuration management?s",
+        "pilihan": [
+            "Di design untuk menginstall dan manage software yang sudah Exist",
+            "Di design menyediakan server itu sendiri, seperti load balancer, database, networking configuration, etc"
+        ],
+        "jawaban":"Di design menyediakan server itu sendiri, seperti load balancer, database, networking configuration, etc",
+        "point": 10
+    },
+    
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "Yang mana di default untuk mutable infrastructure paradigm",
+        "pilihan": [
+            "Chef, Puppet, Ansible, and SaltStack",
+            "puppet, cloudFormation, Terraform", 
+            "ansible, saltStack , Terraform", 
+            "cloudFormation ,Terraform. chef"
+        ],
+        "jawaban":" Chef, Puppet, Ansible, and SaltStack",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "infrastructure-as-code mana yang encourage a procedural style?di mana kode yang kamu tulis harus spesific",
+        "pilihan": [
+            "Chef and Ansible",
+            "Chef and CloudFormation",
+            "Ansible and SaltStack"
+        ],
+        "jawaban":"Chef and Ansible",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "infrastructure-as-code mana yang encourage a declarative style?",
+        "pilihan": [
+            "CloudFormation, SaltStack, and Puppet",
+            "Chef and CloudFormation",
+            "Ansible and SaltStack"
+        ],
+        "jawaban":"Chef and Ansible",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "Apa drawback dari run master server",
+        "pilihan": [
+            "Extra infrastructure",
+            "Maintenance",
+            "Security"
+        ],
+        "jawaban":"All True",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "infrastructure-as-code mana yang masterless sebagai default",
+        "pilihan": [
+            "Ansible, CloudFormation, Heat, and Terraform",
+            "Chef, Puppet, Ansible, and SaltStack",
+            "puppet, cloudFormation, Terraform", 
+            "ansible, saltStack , Terraform", 
+        ],
+        "jawaban":"Ansible, CloudFormation, Heat, and Terraform",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "infrastructure-as-code mana yang membutuhkan menginstall agent software",
+        "pilihan": [
+            "Ansible, CloudFormation, Heat, and Terraform",
+            "Chef, Puppet, Ansible, and SaltStack",
+            "puppet, cloudFormation, Terraform", 
+            "Chef, Puppet, and SaltStack ", 
+        ],
+        "jawaban":"Chef, Puppet, and SaltStack ",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "Apa drawback dari menginstall agent software di setiap server yang kita mau configure?",
+        "pilihan": [
+            "Bootstrapping",
+            "Maintenance",
+            "Security"
+        ],
+        "jawaban":"All True",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "general",
+        "pertanyaan": "Which Combination is work well at number of company?",
+        "pilihan": [
+            "Provisioning plus configuration management",
+            "Provisioning plus server templating",
+            "Provisioning plus server templating plus orchestration"
+        ],
+        "jawaban":"All True",
+        "point": 10
+    },
+    {
+        "category": "General IT",
+        "sub-category": "general",
+        "pertanyaan": "area yang mana yang di lihat ketika code review?",
+        "pilihan": [
+            "Code issues",
+            "Consistency in formatting with the overall software design",
+            "Quality of documentation",
+            "Consistency with coding standards and project requirements"
+        ],
+        "jawaban":"All True",
+        "point": 10
+    },
+    {
+        "category": "General IT",
+        "sub-category": "general",
+        "pertanyaan": "Apa Benefit dari code review?",
+        "pilihan": [
+            "Improves code quality",
+            "Supports knowledge transfer",
+            "Helps teams create better documentation",
+            "Makes QA testing easier"
+        ],
+        "jawaban":"All True",
+        "point": 10
+    },
+    {
+        "category": "General IT",
+        "sub-category": "general",
+        "pertanyaan": "Berikut ini manakah Cara supaya code review bisa di adapt di agile best practice",
+        "pilihan": [
+            "Skip the meeting.",
+            "organizations should instead focus on developing a system that allows them to incorporate feedback throughout the coding proces",
+            "Ketika ada error, langsung di kirim ke pembuatnya, menghemat waktu dan effort",
+            "Use peer code review and peer programming",
+            "Peer programming is where two programmers work on the same lines of source code, with one programmer as the reader and the other as the author",
+            "Use the right tools. ex:GitHub, Visual Studio Code, and BitBucket, automated tools like ESLint & TSLint, collaboration platforms like Upsource "
+        ],
+        "jawaban":"All True",
+        "point": 10
+    },
+    {
+        "category": "DevOps",
+        "sub-category": "CI/CD",
+        "pertanyaan": "Apa Yang di Maksud dengan CI/CD",
+        "pilihan": [
+            "developing software in which you’re able to release updates at any time in a sustainable way",
+            "developing software menggunakan watefall technique"
+        ],
+        "jawaban":"developing software in which you’re able to release updates at any time in a sustainable way",
+        "point": 10
+    }
+
+]
